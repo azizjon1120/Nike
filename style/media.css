@@ -1,0 +1,286 @@
+@media(max-width:1200px) {
+
+    .header__content {
+        background: url(../images/bg.jpg) no-repeat center / cover;
+        height: 600px;
+    }
+    .shoes1__item {
+        width: 500px;
+        height: 430px;
+    }
+    .shoes1__img {
+        width: 450px;
+    }
+    .shoes1__title {
+        font-size: 17px;
+    }
+    .shoes1__text {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .shoes__item {
+        width: 215px;
+        height: 200px;
+    }
+    .shoes__img {
+        width: 60px;
+    }
+    .shoes__title {
+        font-size: 18px;
+    }
+    .shoes__text {
+        width: 190px;
+        margin:  0 auto;
+    }
+}
+@media(max-width:980px) {
+    .footer-img__logo {
+        width: 160px;
+    }
+    .shoes__item {
+        width: 180px;
+    }
+    .shoes__title {
+        font-size: 17px;
+    }
+    .shoes__text {
+        width: 170px;
+        font-size: 15px;
+    }
+    .footer__content {
+        justify-content: space-around;
+    }
+    
+}
+@media(max-width:930px) {
+    .menu__btn {
+        display: flex;
+        order: -1;
+    }
+    .list {
+        position: fixed;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        z-index: 5;
+        background: rgb(7, 3, 3);
+        height: 100%;
+        background: #322E41;
+        transform: translateX(-110%);
+        transition: 0.3s;
+        padding: 20px;
+    }
+    .menu__btn:focus+.list {
+        transform: translateX(0);
+    }
+}
+@media(max-width:900px) {
+    .footer-img__logo {
+        width: 140px;
+    }
+    .footer__content {
+        justify-content: space-around;
+    }
+    .header__content {
+        background: url(../images/bg.jpg) no-repeat center / cover;
+        height: 500px;
+    }
+    .link {
+        font-size: 14px;
+    }
+    .shoes1__item {
+        width: 403px;
+        height: 380px;
+    }
+    .shoes1__img {
+        width: 370px;
+    }
+    .shoes1__title {
+        margin: 10px 0;
+    }
+    .shoes1__text {
+        font-size: 14px;
+        width: 380px;
+    }
+    .footer__link {
+        font-size: 15px;
+    }
+}
+@media(max-width:860px) {
+    .about__content {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .shoes1__item {
+        margin: 0 auto;
+    }
+    .shoes__wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media(max-width:700px) {
+    .footer__inp {
+        width: 200px;
+    }
+    .footer__text {
+        width: 200px;
+    }
+    .form__btn {
+        width: 200px;
+    }
+}
+@media(max-width:600px) {
+    .footer__link {
+        font-size: 14px;
+    }
+    .header__title {
+        font-size: 40px;
+    }
+}
+@media(max-width:500px) {
+    .footer__content {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .footer__inp {
+        width: 320px;
+    }
+    .footer__text {
+        width: 320px;
+    }
+    .form__btn {
+        width: 320px;
+    }
+    .footer__list {
+        display: flex;
+        justify-content: center;
+        column-gap: 20px;
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+    .footer-img__logo {
+        width: 150px;
+    }
+}
+@media(max-width:400px) {
+    .shoes1__item {
+        width: 340px;
+        height: 320px;
+    }
+    .shoes1__img {
+        width: 310px;
+    }
+    .shoes1__title {
+        font-size: 14px;
+        margin-bottom: 2px;
+        margin-top: 2px;
+    }
+    .shoes1__text {
+        width: 300px;
+        font-size: 12px;
+    }
+    .shoes__item {
+        width: 170px;
+        height: 170px;
+    }
+    .shoes__img {
+        width: 50px;
+    }
+    .shoes__title {
+        font-size: 14px;
+        margin: 2px 0;
+    }
+    .shoes__text {
+        font-size: 14px;
+    }
+    .footer__inp {
+        width: 300px;
+    }
+    .footer__text {
+        width: 300px;
+    }
+    .form__btn {
+        width: 300px;
+    }
+    .header__content {
+        background: url(../images/bg.jpg) no-repeat center / cover;
+        height: 400px;
+    }
+}
+@media(max-width:350px) {
+    .shoes1__item {
+        width: 300px;
+        height: 320px;
+    }
+    .shoes1__img {
+        width: 270px;
+    }
+    .shoes1__text {
+        width: 270px;
+    }
+    .shoes__item {
+        width: 140px;
+        height: 160px;
+    }
+    .shoes__text {
+        font-size: 12.6px;
+        width: 130px;
+    }
+    .footer__inp {
+        width: 250px;
+    }
+    .footer__text {
+        width: 250px;
+    }
+    .form__btn {
+        width: 250px;
+    }
+    .footer__link {
+        font-size: 13px;
+    }
+    .footer-img__logo {
+        width: 130px;
+    }
+}
+@media(max-width:320px) {
+    .footer__inp {
+        width: 200px;
+    }
+    .footer__text {
+        width: 200px;
+    }
+    .form__btn {
+        width: 200px;
+    }
+    .footer__list {
+        row-gap: 0;
+    }
+    .shoes1__item {
+        width: 270px;
+        height: 300px;
+    }
+    .shoes1__img {
+        width: 240px;
+    }
+    .shoes1__title {
+        font-size: 13.6px;
+    }
+    .shoes1__text {
+        width: 240px;
+        font-size: 11.7px;
+    }
+    .link {
+        font-size: 13px;
+    }
+    .header__title {
+        font-size: 40px;
+    }
+    .header__text {
+        font-size: 15px;
+    }
+    .nav {
+        padding: 10px 0;
+    }
+}
